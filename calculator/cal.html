@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="cal.js">
+        
+    </script>
+</head>
+<body>
+    
+<div>
+    <div class="main">
+<input id="res" type="=text" class="res">
+    </div>
+    <div>
+<button class="clear" onclick="clear()">C</button>
+    </div>
+    <div>
+        <Button class="btn" onclick="getnum('7')">7</Button>
+        <Button class="btn" onclick="getnum('8')">8</Button>
+        <Button class="btn" onclick="getnum('9')">9</Button>
+        <Button class="btn" onclick="getnum('*')">x</Button>
+
+    </div>
+    <div>
+        <Button class="btn" onclick="getnum('4')">4</Button>
+        <Button class="btn" onclick="getnum('5')">5</Button>
+        <Button class="btn" onclick="getnum('6')">6</Button>
+        <Button class="btn" onclick="getnum('-')">-</Button>
+
+    </div>
+    <div>
+        <Button class="btn" onclick="getnum('1')">1</Button>
+        <Button class="btn" onclick="getnum('2')">2</Button>
+        <Button class="btn" onclick="getnum('3')">3</Button>
+        <Button class="btn" onclick="getnum('+')">+</Button>
+
+    </div>
+    <div>
+        <Button class="half" onclick="getnum(0)">0</Button>
+        <Button class="half" onclick="getres()">=</Button>
+
+    </div>
+</div>
+</body>
+</html>
